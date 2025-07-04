@@ -8,8 +8,51 @@ const challenges = [
     { question: "Selecione 4/6 da pizza", slices: 6, answer: 4 },
     { question: "Selecione 3/8 da pizza", slices: 8, answer: 3 },
     { question: "Selecione 5/8 da pizza", slices: 8, answer: 5 },
-    // Sinta-se livre para adicionar desafios ou incluir um modo “posometria de remédio”!
+    { question: "Selecione 1/5 da pizza", slices: 5, answer: 1 },
+    { question: "Selecione 2/5 da pizza", slices: 5, answer: 2 },
+    { question: "Selecione 4/5 da pizza", slices: 5, answer: 4 },
+    { question: "Selecione 3/6 da pizza", slices: 6, answer: 3 },
+    { question: "Selecione 5/6 da pizza", slices: 6, answer: 5 },
+    { question: "Selecione 2/8 da pizza", slices: 8, answer: 2 },
+    { question: "Selecione 7/8 da pizza", slices: 8, answer: 7 },
+    { question: "Selecione 1/10 da pizza", slices: 10, answer: 1 },
+    { question: "Selecione 3/10 da pizza", slices: 10, answer: 3 },
+    { question: "Selecione 5/10 da pizza", slices: 10, answer: 5 },
+    { question: "Selecione 7/10 da pizza", slices: 10, answer: 7 },
+    { question: "Selecione 9/10 da pizza", slices: 10, answer: 9 },
+    { question: "Selecione 1/12 da pizza", slices: 12, answer: 1 },
+    { question: "Selecione 4/12 da pizza", slices: 12, answer: 4 },
+    { question: "Selecione 7/12 da pizza", slices: 12, answer: 7 },
+    { question: "Selecione 9/12 da pizza", slices: 12, answer: 9 },
+    { question: "Selecione 11/12 da pizza", slices: 12, answer: 11 },
+    { question: "Selecione 2/7 da pizza", slices: 7, answer: 2 },
+    { question: "Selecione 5/7 da pizza", slices: 7, answer: 5 },
+    { question: "Selecione 3/9 da pizza", slices: 9, answer: 3 },
+    { question: "Selecione 7/9 da pizza", slices: 9, answer: 7 },
+    { question: "Selecione 5/12 da pizza", slices: 12, answer: 5 },
+    { question: "Selecione 8/12 da pizza", slices: 12, answer: 8 },
+    { question: "Selecione 10/12 da pizza", slices: 12, answer: 10 },
+    { question: "Selecione 3/5 da pizza", slices: 5, answer: 3 },
+    { question: "Selecione 4/9 da pizza", slices: 9, answer: 4 },
+    { question: "Selecione 6/9 da pizza", slices: 9, answer: 6 },
+    { question: "Selecione 8/9 da pizza", slices: 9, answer: 8 },
+    { question: "Selecione 2/11 da pizza", slices: 11, answer: 2 },
+    { question: "Selecione 7/11 da pizza", slices: 11, answer: 7 },
+    { question: "Selecione 9/11 da pizza", slices: 11, answer: 9 },
+    { question: "Selecione 11/11 da pizza", slices: 11, answer: 11 },
+    { question: "Selecione 1/16 da pizza", slices: 16, answer: 1 },
+    { question: "Selecione 4/16 da pizza", slices: 16, answer: 4 },
+    { question: "Selecione 7/16 da pizza", slices: 16, answer: 7 },
+    { question: "Selecione 11/16 da pizza", slices: 16, answer: 11 },
+    { question: "Selecione 15/16 da pizza", slices: 16, answer: 15 },
+    { question: "Selecione 13/16 da pizza", slices: 16, answer: 13 },
+    { question: "Selecione 8/15 da pizza", slices: 15, answer: 8 },
+    { question: "Selecione 13/15 da pizza", slices: 15, answer: 13 },
 ];
+
+    
+    // Sinta-se livre para adicionar desafios ou incluir um modo “posometria de remédio”!
+
 let currentChallenge = 0;
 let selected = [];
 let score = 0;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fração na Pizza!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="container">
+        <h1>Fração na Pizza!</h1>
+        <div class="game-box">
+            <div class="challenge" id="challengeText">Qual fração devo selecionar?</div>
+            <div class="pizza-area">
+                <canvas id="pizzaCanvas" width="300" height="300"></canvas>
+            </div>
+            <div class="controls">
+                <button id="checkBtn">Verificar</button>
+                <button id="nextBtn" style="display:none">Próximo</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <div id="score" class="score">Pontos: 0</div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 · Jogo educativo de frações por Pedro e ChatGPT</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
